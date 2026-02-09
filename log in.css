@@ -1,0 +1,48 @@
+
+.research {
+    margin: 0;
+    padding: 0;
+    display: flex;   /* يسهل التحكم */          
+    justify-content: center;    /* التوسيط الأفقي */
+    align-items: center;        /* التوسيط العمودي */
+    min-height: 100vh;          /* ضروري جداً لجعل الطول يغطي كامل الشاشة */
+    background-color: #cbdaff; 
+    
+    flex-direction: column; /* ترتيب العناصر بشكل عمودي */
+    align-items: center;    /* توسيط العناصر أفقياً داخل الحاوية */
+    gap: 20px;
+}
+
+input {
+    margin-bottom: 20px; /* هذه القيمة تحدد مقدار المسافة بين الخانتين */
+    display: block;      /* لضمان أن كل خانة تأخذ سطراً مستقلاً */
+    flex-direction: column; /* لترتيب الخانات عمودياً فوق بعضها */
+    padding: 5px 10px;        /* زيادة الحجم  */
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.but{
+  display: flex;            
+    justify-content: center;   /* جعل الزرين في المنتصف تماماً */
+    gap: 20px;                /* المسافة بين الزرين  */
+    
+
+
+}
+    .but :hover{
+        background-color: #d94a50; 
+    }
+button {
+    padding: 8px 15px;        /*  ليكون أجمل */
+    cursor: pointer;
+    border-radius: 5px; /* جعل الحواف معكوفة */
+    background-color: #ee6268;
+    border-radius: 15px;
+    padding: 5px 15px;
+    color: aliceblue;
+    border: none;
+}
+
