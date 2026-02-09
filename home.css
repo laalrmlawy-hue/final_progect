@@ -1,0 +1,142 @@
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 633;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.headar {
+    background-color: #0B2D72;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    
+}
+.header-links a {
+    color: aliceblue;
+    padding: 5px 15px;
+    text-decoration: none;/* يزيل الخطوط الي تحت الرابط */
+    border-radius: 15px;
+}
+.header-links a:hover {
+    background-color: #2386fe;
+
+}
+.logo {
+    width: 100px;
+     border-radius: 30px;
+}
+.btn {
+    background-color: #0AC4E0;
+    border-radius: 15px;
+    padding: 5px 15px; /*التحكم بالحجم */
+    color: aliceblue;
+    border: none;
+    
+   
+}
+.btn:hover{
+     background-color: #0992C2; 
+   
+}
+.ladng {
+    background-color: #0992C2;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    color: #ffff;
+}
+.lin {
+    width: 500px;
+}
+.limg-con img {
+    width: 50%;
+    border-radius: 50px;
+    float: right;
+    margin-left: 20px;
+}
+.research input {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding: 0 10px;
+}
+.trnting-contenar {
+    padding: 25px 50px;
+
+}
+.trnting-hedar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* ليكون العنوان والأزرار على خط واحد */
+    display: flex;
+    gap: 10px;          /* هذه هي القيمة التي تتحكم في قرب الأزرار من بعضها */
+    padding: 10px 50px;
+    
+}
+.trnting-hedar h1 {
+    margin-top: 0;
+    
+}
+.trnting-cart {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+
+}
+.cart {
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px
+}
+.cart .thumb {
+    border-radius: 20px 20px 0 0;
+
+}
+.cart_infi {
+    display: flex;
+
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 5px 25px;
+    align-items: center;
+    border-radius: 20px
+}
+.cart_infi img {
+    width: 50px;
+    border-radius: 20px
+}
+.cart_infi body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 633;
+    font-style: normal;
+    font-variation-settings:  "wdth" 100;
+}
+.trnting-contenar span {
+    color: #d94a50;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.thumb {
+  width: 100%;       /* تجعل عرض الصورة يملأ الكرت بالكامل */
+    height: 300px;     /* حدد ارتفاعاً ثابتاً لتوحيد شكل الكروت */
+    object-fit: cover; /* تعمل على قص الصورة */
+    border-radius: 10px 10px 0 0; /*  لعمل انحناء في الزوايا العلوية فقط */   
+}
+.cart:hover {
+    transform: translateY(-10px); /* يرتفع الكرت قليلاً */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* يظهر ظل عميق */
+    transition: 0.3s ease-in-out;
+}
+
+
+
